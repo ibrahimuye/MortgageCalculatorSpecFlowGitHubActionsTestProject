@@ -1,4 +1,4 @@
-# MortgageCalculatorSpecFlowGitHubActionsTestProject
+# MortgageCalculatorSpecFlowTestProject
 A demo with Seleneium, C#, Spec Flow on Mortgage Calculator
 
 Here are test cases
