@@ -50,12 +50,14 @@ namespace SpecFlow_MortgageCalculator.StepDefinitions
             Driver.GetDriver().FindElement(By.XPath(calculatorPage.homePriceInputBoxXpath)).Clear();
             Driver.GetDriver().FindElement(By.XPath(calculatorPage.homePriceInputBoxXpath)).SendKeys(homePrice);
         }
+
         [When(@"I enter the down payment as (.*)")]
         public void WhenIEnterTheDownPaymentAs(string downPayment)
         {
             Driver.GetDriver().FindElement(By.XPath(calculatorPage.downPaymentInputBoxXpath)).Clear();
             Driver.GetDriver().FindElement(By.XPath(calculatorPage.downPaymentInputBoxXpath)).SendKeys(downPayment);
         }
+
         [When(@"I enter the interest rate as (.*)")]
         public void WhenIEnterTheInterestRateAsInterestRate(string interestRate)
         {
