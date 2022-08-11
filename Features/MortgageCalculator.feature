@@ -1,4 +1,5 @@
 ﻿@calculator
+@regression
 Feature: Mortgage Calculator
 As a user I should be able to land on the mortgage calculator page and calculate monthly payment amount
 
@@ -10,6 +11,7 @@ Background: Navigate to the page
 
 @TestCaseNo:001
 @smoke
+@US:15684
 Scenario: Fill the calculator fields with realistic data to reflect a real life scenario
 	Given I am on the mortgage calculator page
 	When I enter the home price as <Home Price>
@@ -25,6 +27,7 @@ Examples:
 
 
 @TestCaseNo:002
+@US:15685
 Scenario: Fill the calculator fields with unrealistic data - negative scenario
 	Given I am on the mortgage calculator page
 	When I enter the home price as <Home Price>
